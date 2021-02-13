@@ -669,7 +669,6 @@ p {
   width: 18px;
   height: 18px;
   bottom: 50%;
-  padding: 2px;
   left: 12px;
   transform: translateY(50%);
   transition: fill var(--animation-function-and-duration);
@@ -704,6 +703,7 @@ p {
   line-height: 1.71;
   align-items: center;
 }
+
 .modal-form-agriment-label::before {
   content: "";
   cursor: pointer;
@@ -720,9 +720,12 @@ p {
   transition: background-color var(--animation-function-and-duration),
     border-color var(--animation-function-and-duration);
 }
+.modal-form-agriment-input:focus + .modal-form-agriment-label::before {
+  border-color: var(--active-link-color);
+}
 .modal-form-agriment-input:checked + .modal-form-agriment-label::before {
-  background-color: #2196f3;
-  border-color: #2196f3;
+  background-color: var(--active-link-color);
+  border-color: var(--active-link-color);
 }
 .is-hidden {
   visibility: hidden;
