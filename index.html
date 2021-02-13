@@ -479,7 +479,7 @@
           </address>
         </div>
         <div class="social-link-container">
-          <p class="social-link-title">присоединяйтесь</p>
+          <p class="footer-sub-title">присоединяйтесь</p>
           <ul class="social-list">
             <li class="social-list-item">
               <a href="#" class="social-list-link dark-theme">
@@ -511,10 +511,26 @@
             </li>
           </ul>
         </div>
-        <div class="subscribe-conteinet"></div>
+        <div class="subscribe-conteinet">
+          <p class="footer-sub-title">Подпишитесь на рассылку</p>
+          <form action="#" name="subscribe-form" class="subscribe-form">
+            <label for="subscribe-email" class="subscribe-form-label">
+              <input
+                type="email"
+                name="subscribe-email"
+                id="subscribe-email"
+                placeholder="E-mail"
+                class="subscribe-form-input"
+              />
+              <button type="submit" class="modal-button subscribe-form-button">
+                Подписаться
+              </button>
+            </label>
+          </form>
+        </div>
       </div>
     </footer>
-    <div class="backdrop" data-modal>
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-close-button" data-modal-close>
           <svg width="12" height="12">
@@ -532,7 +548,7 @@
               id="user-name"
             />
             <svg class="modal-form-icon">
-              <use href="./images/icons/sprite.svg#icon-user"></use>
+              <use href="./images/icons/sprite.svg#icon-person"></use>
             </svg>
           </div>
 
@@ -547,7 +563,7 @@
               id="user-phone-number"
             />
             <svg class="modal-form-icon">
-              <use href="./images/icons/sprite.svg#icon-tel"></use>
+              <use href="./images/icons/sprite.svg#icon-phone"></use>
             </svg>
           </div>
           <label class="modal-form-label" for="user-email"> Почта </label>
@@ -559,7 +575,7 @@
               id="user-email"
             />
             <svg class="modal-form-icon">
-              <use href="./images/icons/sprite.svg#icon-mail"></use>
+              <use href="./images/icons/sprite.svg#icon-email"></use>
             </svg>
           </div>
           <label class="modal-form-label" for="user-massage">
@@ -574,7 +590,6 @@
           ></textarea>
           <div class="modal-agriment-wrapper">
             <input
-              checked
               class="modal-form-agriment-input visually-hidden"
               type="checkbox"
               name="user-agriment"
