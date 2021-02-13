@@ -73,7 +73,9 @@
             Эффективные решения <br />
             для вашего бизнеса
           </h1>
-          <button type="button" class="hero-button" data-modal-open>Заказать услугу</button>
+          <button type="button" class="hero-button" data-modal-open>
+            Заказать услугу
+          </button>
         </div>
       </section>
       <!--Особенности-->
@@ -511,11 +513,19 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop" data-modal>
       <div class="modal">
-        <button type="button" class="modal-button" data-modal-close><svg width="12" height="12">
-          <use href="./images/icons/sprite.svg#icon-cross"></></use>
-        </svg></button>
+        <button type="button" class="modal-button" data-modal-close>
+          <svg width="12" height="12">
+            <use href="./images/icons/sprite.svg#icon-cross"></use>
+          </svg>
+        </button>
+        <b class="modal-title">Оставьте свои данные, мы вам перезвоним</b>
+        <form action="#" class="modal-form">
+          <label class="modal-form-label">
+            <input type="text" class="modal-form-input"
+          /></label>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
