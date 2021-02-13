@@ -67,7 +67,7 @@ p {
 .section {
   padding: var(--section-padding) 0;
 }
-.conteiner {
+.container {
   width: 1200px;
   padding-left: var(--gatter-size);
   padding-right: var(--gatter-size);
@@ -101,7 +101,7 @@ p {
 .header {
   border-bottom: 1px solid #ececec;
 }
-.header .conteiner {
+.header .container {
   align-items: center;
 }
 
@@ -304,7 +304,7 @@ p {
 .team-list-text {
   margin-bottom: 16px;
 }
-.team-list-text-conteiner {
+.team-list-text-container {
   text-align: center;
   padding: var(--double-gatter-size);
 }
@@ -408,10 +408,10 @@ p {
 .footer-list-link:hover {
   color: var(--active-link-color);
 }
-.footer .conteiner {
+.footer .container {
   align-items: baseline;
 }
-.address-conteiner {
+.address-container {
   margin-right: 70px;
 }
 .dark-theme {
@@ -495,7 +495,7 @@ p {
   width: 100%;
 }
 
-.examples-list-text-conteiner {
+.examples-list-text-container {
   padding: 20px 24px;
 
   border-top: none;
