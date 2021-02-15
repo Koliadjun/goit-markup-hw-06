@@ -632,6 +632,7 @@ p {
 .modal-form {
   display: flex;
   flex-direction: column;
+  /* align-items: center; */
 }
 .modal-form-label {
   font-size: 12px;
@@ -651,6 +652,7 @@ p {
 
 .modal-form-input {
   height: 40px;
+  width: 100%;
 }
 .modal-form-input:focus,
 .modal-form-textarea:focus {
@@ -726,6 +728,10 @@ p {
 .modal-form-agriment-input:checked + .modal-form-agriment-label::before {
   background-color: var(--active-link-color);
   border-color: var(--active-link-color);
+}
+.modal-button-form {
+  min-width: 200px;
+  align-self: center;
 }
 .is-hidden {
   visibility: hidden;
