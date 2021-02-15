@@ -646,13 +646,12 @@ p {
   box-sizing: border-box;
   border-radius: 4px;
   width: 100%;
-  padding-left: 42px;
+  padding: 12px 12px 12px 42px;
   transition: border var(--animation-function-and-duration);
 }
 
 .modal-form-input {
   height: 40px;
-  width: 100%;
 }
 .modal-form-input:focus,
 .modal-form-textarea:focus {
